@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box; /*quando usa o width ex 300px, ele tera 300px exatos junto com padding e bordas        */
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:  #ccc;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+}
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    width: 90%;
+   /* border: 1px solid red; */
+    margin: auto auto;
+}
+
+input {
+    height: 120px;
+    font-size: 2rem;
+    width: 80%;
+    padding-left: 10%;
+}
+
+button.add {
+    width: 20%;
+    height: 120px;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border-top-right-radius:10px ;
+    border-bottom-right-radius:10px ;
+    border: none;
+    
+}
+
+main {
+    display: flex;
+    flex-flow: row wrap;
+    width: 90%;
+    margin: auto auto;
+ /*   border: 1px solid blue; */
+    padding-top: 40px;
+}
+
+.item {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    height: 80px;
+    width: 100%;
+    margin-bottom: 2%;
+    cursor: pointer;
+}
+
+
+.item.clicado {
+    background: rgb(214, 214, 214);
+}
+
+.item.clicado .item-nome {
+    text-decoration: line-through;
+    color: gray;
+}
+ 
+.item-icone {
+    flex: 20%;
+ /*   border: 1px solid orange; */
+    text-align: center;
+    font-size: 2rem;
+    
+}
+
+.item-nome {
+    flex: 55%;
+  /*   border: 1px solid deeppink; */
+    font-size: 20px;
+    font-weight: bold;
+   
+}
+
+.item-botao {
+    flex: 25%;
+  /*  border: 1px solid red; */
+   
+}
+
+.delete {
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    height: 80px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.mdi-check-circle {
+    color: green;
+}

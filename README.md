@@ -3,7 +3,7 @@
 <a href="https://github.com/marciolucasjunior/MediaQueries/blob/main/LICENSE"><img src="https://user-images.githubusercontent.com/109992150/210664502-0966a53d-1f9e-42e8-a4d7-605927c7cb5f.jpeg" width="80px" /></a>
 
 <h1>Sobre  o  Projeto   </h1>
-link
+ <a href="">acesse o projeto clicando aqui</a>
 
 <p> Neste projeto pratico temos uma lista de tarefas que podemos adcionar varias tarefas e também, podemos deleta-las através do id , e também podemos marcar as tarefas que ja foram conclúidas </p>
 <p>Um projeto com o objetivo de testar e aprimorar as habilidades em javascritpt </p>

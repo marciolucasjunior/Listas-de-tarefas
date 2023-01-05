@@ -10,7 +10,7 @@ link
 
 <h2>Layout do projeto </h2>
 
-<img src=""  width="270px" />
+<img src="https://user-images.githubusercontent.com/109992150/210799491-bc1b5524-663a-4e07-8420-d0e02f71c682.png"  width="270px" />
 
 <h1>Tecnologias utilizadas </h1>
  HTML /CSS / JAVASCRIPT
